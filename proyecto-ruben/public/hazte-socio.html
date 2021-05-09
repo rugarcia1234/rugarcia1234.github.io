@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hazte socio</title>
+        <!-- METAS OG -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Protectora de animales en Badajoz">
+        <meta name="keywords" content="Perro, Animal, Protectora, Refugio">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../imagen/favicon.ico">
+        <link rel="stylesheet" href="../styles/hazte-socio-style.css">
+        <style>
+            @media only screen and (max-width: 600px) {
+            img{display: none;}
+            .main{ margin-left: 15px; margin-right: 15px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div style="background-color:rgba(128, 128, 128, 0.445); width: 100%;">
+        <br>
+        <header>
+            <br>
+            <h1 style="text-align: center ; font-weight: bold;">Protectora Badajoz</h1>
+            <br>
+            <br>
+            <br>
+        </header>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../public/quienes-somos.html">Quienes somos</a></li>
+                <li><a href="../public/donde-estamos.html">Donde estamos</a></li>
+                <li><a href="../public/como-puedes-ayudar.html">Como puedes ayudar</a></li>
+                <li><a href="../public/hazte-socio.html">Hazte socio</a></li>
+            </ul>            
+        </nav>
+        <br><br><br>
+        </div>
+        <h1 style="text-align: center; background-color: rgba(0, 0, 255, 0.226);">Hazte soci@ e inscríbete</h1>
+        <main style="margin-left: 120px; margin-right: 30px;">
+            <img src="../imagen/hazte-socio.jpg" style=" margin-left: 10px; float:right; margin-top: 130px; width: 31%;">
+            <section>
+                <fieldset style="width: 65%;">
+                <legend style="font-style: italic; font-size: 20px;">Tus datos personales:</legend>
+                <form>
+                <br>
+                    <label for="fname">Nombre</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Itroduzca su nombre"><br>
+                    <label for="lname">Apellidos </label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Introduzca apellido"><br>
+                    <label for="datemin">Fecha de nacimiento:</label><br>
+                    <input type="date" id="datemin" name="datemin" min="2000-01-02"><br>             
+                    <p>Por favor su sexo:</p>
+                    <input type="radio" id="male" name="genero" value="Hombre">
+                    <label for="male">Hombre</label><br>
+                    <input type="radio" id="female" name="genero" value="Mujer">
+                    <label for="female">Mujer</label><br>
+                    <input type="radio" id="other" name="genero" value="Otros">
+                    <label for="other">Otros</label><br><br>
+                    <label for="dname">Dirección</label><br>
+                    <input type="text" id="dname" name="dname" placeholder="Introduzca su dirección"><br>
+                    <label for="text">Población</label><br>
+                    <input type="text" id="pname" name="pname" placeholder="Introduzca la población de residencia"><br><br><br>
+                    <input type="submit" value="Submit">
+                    <button onclick="myFunction()">Restablecer</button>
+                    <script>
+                    function myFunction() {
+                      alert("¿Estás seguro de que quieres restablecer?");
+                    }
+                    </script>
+                </legend>
+                </fieldset>
+            </section>
+            <br>       
+            <br>
+            <section>
+                <fieldset style="width: 65%;">
+                <legend style="font-style: italic; font-size: 20px;">Otros datos:</legend><br>
+                <form>
+                    <label>Vehiculo en propiedad</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Bicicleta</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> Coche</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> Moto</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle4"> Barco</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle5"> Patinete</label><br><br>
+                    <label for="uname">Introduza su usuario</label><br>
+                    <input type="text" id="uname" name="uname" placeholder="Introduzca un usuario"><br>
+                    <label for="pwd">Introduzca su contraseña:</label><br>            
+                    <input type="password" id="pwd" name="pwd" placeholder="Introduzca una contraseña"><br><br><br>
+                    <input type="submit" value="Submit">
+                    <button onclick="myFunction()">Restablecer</button>
+                    <script>
+                    function myFunction() {
+                      alert("¿Estás seguro de que quieres restablecer?");
+                    }
+                    </script>
+                </form>          
+                </form>
+                </fieldset>
+            </section>
+    </main>
+        <br>
+        <br>
+        <footer class="footer">
+            <div class="flex-container1"> 
+                <div>
+                    <h3 style="margin-left: 5%;">Nuestras redes sociales:</h3>
+                    <img src="../imagen/ig-icon.png" style="width: 2%; margin-left: 4%;">
+                    <a href="http://www.instagram.es" target="_blank">Instagram</a>
+                    <br>
+                    <img src="../imagen/fb-icon.png" style="width: 2%; margin-left: 4%;">                
+                    <a href="http://www.facebook.es" target="_blank">Facebook</a>                
+                    <br>
+                    <img src="../imagen/tw-icon.png" style="width: 2%; margin-left: 4%;">                    
+                    <a href="http://www.twitter.es" target="_blank">Twitter</a>
+                    <br>
+                    <img src="../imagen/yt-icon.png" style="width: 2%; margin-left: 4%;">
+                    <a href="http://www.youtube.es" target="_blank">Youtube</a>
+                </div>
+                <div>
+                    <h3>Teléfonos:</h3>
+                    <p>847 473 489 / 847 374 387</p>
+                    <p >protectorabadajoz@gmail.com</p>
+                </div>
+                <div>
+                    <img src="../imagen/logo_diputacion_370x170.png" style="float: right; width: 30%;">
+                    <img src="../imagen/logo-header.png" style="float: right; width: 25%;">
+                </div>
+            </div>
+            <br><br>
+        </footer>
+    </body>
+</html>

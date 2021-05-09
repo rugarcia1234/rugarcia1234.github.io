@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title id="cabeceraSeo_titleSeo">Donde estamos</title>
+         <!-- METAS OG -->
+         <meta charset="UTF-8">
+         <meta name="description" content="Protectora de animales en Badajoz">
+         <meta name="keywords" content="Perro, Animal, Protectora, Refugio">
+         <meta name="author" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta charset="UTF-8">
+         <link rel="icon" href="./../imagen/favicon.ico">
+         <style>
+            header{ border: 2px outset black;
+                    text-align: center;
+                    margin-top: 15px;
+                    background-image: url("../imagen/banner.jpg");
+                }
+            .flex-container1 {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    width: 100%;
+                }
+            .flex-container1 > div {
+                    width: 30%;
+                    justify-content: center;
+                }
+            footer {
+                    width: 100%; 
+                    position: static; 
+                    bottom: 0; 
+                    background-color: lightsteelblue; 
+                }
+            footer > p {
+                    margin-left: 5%;
+                } 
+            iframe{ margin-left: 5%;
+
+            }
+            ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color:gray;
+                    }
+                li {
+                    float: left;
+                    margin-left: 7%;
+                    }
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+                li a:hover {
+                    background-color: #111;
+                }
+                .item1 { grid-area: header;
+                    width: 100%;
+                    background-color:rgba(128, 128, 128, 0.445); }
+                .item2 { grid-area: main; }
+                .item3 { grid-area: footer; }
+                .grid-container {
+                    display: grid;
+                    grid-template-areas:
+                    'header header header header header header'
+                    'main main main main main main'
+                    'main main main main main main'
+                    'footer footer footer footer footer footer';
+                    grid-gap: 10px;
+                    padding: 10px;
+                    }
+                .grid-container > div {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    padding: 10px 0;
+                    font-size: 16px;
+                    }
+                @media only screen and (max-width: 600px) {
+                    iframe{ max-width: 90%;}
+                }
+         </style>
+    </head>
+    <body>
+        <div class="item1">
+            <div style="background-color:rgba(128, 128, 128, 0.445); width: 100%;">
+            <br>
+            <header>
+                <br>
+                <h1 style="text-align: center ; font-weight: bold;">Protectora Badajoz</h1>
+                <br>
+                <br>
+                <br>
+            </header>
+            <br>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Principal</a></li>
+                    <li><a href="../public/quienes-somos.html">Quienes somos</a></li>
+                    <li><a href="../public/donde-estamos.html">Donde estamos</a></li>
+                    <li><a href="../public/como-puedes-ayudar.html">Como puedes ayudar</a></li>
+                    <li><a href="../public/hazte-socio.html">Hazte socio</a></li>
+                </ul>            
+            </nav>
+            <br><br><br>
+            </div>
+        </div>
+        <div class="item2">
+            </div>
+            <h1 style="text-align: center; background-color: rgba(0, 0, 255, 0.226);">¿Dónde estamos?</h1>
+            <img src="../imagen/extremadura.gif" alt="Workplace" usemap="#workmap" width="400" height="379">
+                <map name="workmap">
+                    <area shape="rect" coords="85,63,275,150" alt="Cáceres" href="https://www.dip-caceres.es/" target="_blank">
+                    <area shape="circle" coords="156,291,70" alt="Badajoz" href="https://www.dip-badajoz.es/" target="_blank">
+                </map>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24847.590775610402!2d-7.005188677405988!3d38.87941215116181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd16e38ab4d4e259%3A0x1868f22c4f8422ce!2sHospital%20Universitario%20de%20Badajoz!5e0!3m2!1ses!2ses!4v1612934139873!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br><br>
+            <a href="../index.html" target="principal"> Ir a la página principal</a>
+        </div>
+        <div class="item3">
+            <footer class="footer">
+                <div class="flex-container1"> 
+                    <div>
+                        <h3 style="margin-left: 5%;">Nuestras redes sociales:</h3>
+                        <img src="../imagen/ig-icon.png" style="width: 2%; margin-left: 4%;">
+                        <a href="http://www.instagram.es" target="_blank">Instagram</a>
+                        <br>
+                        <img src="../imagen/fb-icon.png" style="width: 2%; margin-left: 4%;">                
+                        <a href="http://www.facebook.es" target="_blank">Facebook</a>                
+                        <br>
+                        <img src="../imagen/tw-icon.png" style="width: 2%; margin-left: 4%;">                    
+                        <a href="http://www.twitter.es" target="_blank">Twitter</a>
+                        <br>
+                        <img src="../imagen/yt-icon.png" style="width: 2%; margin-left: 4%;">
+                        <a href="http://www.youtube.es" target="_blank">Youtube</a>
+                    </div>
+                    <div>
+                        <h3>Teléfonos:</h3>
+                        <p>847 473 489 / 847 374 387</p>
+                        <p >protectorabadajoz@gmail.com</p>
+                    </div>
+                    <div>
+                        <img src="../imagen/logo_diputacion_370x170.png" style="float: right; width: 30%;">
+                        <img src="../imagen/logo-header.png" style="float: right; width: 25%;">
+                    </div>
+                </div>
+            <br><br>
+            </footer>
+        </div>
+    </body>
+</html>

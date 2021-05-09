@@ -1,0 +1,44 @@
+header{border: 2px outset black;
+    text-align: center;
+    margin-top: 15px;
+    background-image: url("../imagen/banner.jpg");
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:gray;
+        }
+    li {
+        float: left;
+        margin-left: 7%;
+        }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #111;
+    }
+.flex-container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.flex-container1 > div {
+    width: 30%;
+    justify-content: center;
+}
+.footer {
+    width: 100%; 
+    position: static; 
+    bottom: 0; 
+    background-color: lightsteelblue; 
+}
+.footer > p {
+    margin-left: 5%;
+}
